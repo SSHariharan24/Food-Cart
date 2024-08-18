@@ -1,0 +1,175 @@
+[{
+    "id":1,
+    "name":"Grill Chicken ",
+    "price":"4.00",
+    "image_url":"https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+},
+{
+    "id": 2,
+    "name": "Cheeseburger",
+    "description": "Juicy cheeseburger with lettuce, tomato, and cheese",
+    "price": "5.00",
+    "image_url": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 3,
+    "name": "Fries",
+    "description": "Crispy golden French fries",
+    "price": "2.00",
+    "image_url": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Chicken Sandwich",
+    "description": "Grilled chicken sandwich with lettuce and mayo",
+    "price": "4.50",
+    "image_url": "https://images.pexels.com/photos/5446513/pexels-photo-5446513.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 5,
+    "name": "Veggie Wrap",
+    "description": "Fresh veggie wrap with hummus and mixed greens",
+    "price": "4.00",
+    "image_url": "https://images.pexels.com/photos/4955265/pexels-photo-4955265.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 6,
+    "name": "Fish Tacos",
+    "description": "Crispy fish tacos with cabbage slaw and lime crema",
+    "price": "6.00",
+    "image_url": "https://images.pexels.com/photos/3298634/pexels-photo-3298634.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Nachos",
+    "description": "Loaded nachos with cheese, jalapenos, and salsa",
+    "price": "5.00",
+    "image_url": "https://images.pexels.com/photos/62097/pexels-photo-62097.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Soft Pretzel",
+    "description": "Warm, soft pretzel with a side of cheese dip",
+    "price": "3.00",
+    "image_url": "https://images.pexels.com/photos/3026805/pexels-photo-3026805.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Ice Cream Cone",
+    "description": "Vanilla ice cream cone",
+    "price": "2.50",
+    "image_url": "https://images.pexels.com/photos/1739347/pexels-photo-1739347.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 10,
+    "name": "Lemonade",
+    "description": "Refreshing homemade lemonade",
+    "price": "1.50",
+    "image_url": "https://images.pexels.com/photos/5946681/pexels-photo-5946681.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Churros",
+    "description": "Warm churros with cinnamon sugar",
+    "price": "3.00",
+    "image_url": "https://images.pexels.com/photos/372851/pexels-photo-372851.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 12,
+    "name": "BBQ Ribs",
+    "description": "Smoky BBQ ribs with a side of coleslaw",
+    "price": "7.50",
+    "image_url": "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Falafel",
+    "description": "Crispy falafel balls with tahini sauce",
+    "price": "4.00",
+    "image_url": "https://images.pexels.com/photos/6546433/pexels-photo-6546433.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 14,
+    "name": "Pizza Slice",
+    "description": "Pepperoni pizza slice",
+    "price": "2.75",
+    "image_url": "https://images.pexels.com/photos/919670/pexels-photo-919670.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Greek Salad",
+    "description": "Fresh Greek salad with feta cheese and olives",
+    "price": "4.50",
+    "image_url": "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Buffalo Wings",
+    "description": "Spicy buffalo wings with blue cheese dip",
+    "price": "6.00",
+    "image_url": "https://images.pexels.com/photos/853006/pexels-photo-853006.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "Sushi Roll",
+    "description": "California sushi roll with soy sauce",
+    "price": "5.50",
+    "image_url": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "Tuna Melt",
+    "description": "Tuna melt sandwich with melted cheese",
+    "price": "4.75",
+    "image_url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg"
+  },
+  {
+    "id": 19,
+    "name": "Pasta Salad",
+    "description": "Italian pasta salad with vegetables and dressing",
+    "price": "4.00",
+    "image_url": "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg"
+  },
+  {
+    "id": 20,
+    "name": "Cheese Quesadilla",
+    "description": "Cheese quesadilla with salsa and sour cream",
+    "price": "3.50",
+    "image_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg"
+  },
+  {
+    "id": 21,
+    "name": "Apple Pie",
+    "description": "Classic apple pie slice",
+    "price": "3.00",
+    "image_url": "https://images.pexels.com/photos/5945661/pexels-photo-5945661.jpeg"
+  },
+  {
+    "id": 22,
+    "name": "Chicken Nuggets",
+    "description": "Crispy chicken nuggets with honey mustard dip",
+    "price": "4.00",
+    "image_url": "https://images.pexels.com/photos/2323391/pexels-photo-2323391.jpeg"
+  },
+  {
+    "id": 23,
+    "name": "BLT Sandwich",
+    "description": "Bacon, lettuce, and tomato sandwich",
+    "price": "4.25",
+    "image_url": "https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg"
+  },
+  {
+    "id": 24,
+    "name": "Pancakes",
+    "description": "Fluffy pancakes with maple syrup",
+    "price": "3.50",
+    "image_url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg"
+  },
+  {
+    "id": 25,
+    "name": "Fruit Smoothie",
+    "description": "Mixed berry fruit smoothie",
+    "price": "3.75",
+    "image_url": "https://images.pexels.com/photos/2251998/pexels-photo-2251998.jpeg"
+  }
+]
