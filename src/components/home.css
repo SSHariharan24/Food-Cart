@@ -4,5 +4,5 @@
     gap: 10px;
     text-align: center;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
