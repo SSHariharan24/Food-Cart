@@ -1,27 +1,34 @@
-.product{
-    width:200px;
-    height: 250px;
+.product {
+    width: 200px; /* Base width for larger screens */
+    height: 250px; /* Fixed height */
     border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly rounded corners */
+    overflow: hidden; /* Prevents overflow from child elements */
+    transition: box-shadow 0.3s; /* Smooth transition for hover effect */
 }
 
-.product .image{
+.product:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover for depth effect */
+}
+
+.product .image {
     width: 100%;
     height: 150px;
 }
 
-.product .image img{
-  width: 100%;
-  height: 100%;  
-  object-fit: cover;
+.product .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area */
 }
 
-.details{
+.details {
     padding: 5px;
 }
 
-.details h3{
-  margin-bottom: 10px;
-  font-size: 16px;  
+.details h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .details p {
@@ -30,7 +37,7 @@
     color: #888;
 }
 
-.details button{
+.details button {
     margin-top: 5px;
     padding: 5px 10px;
     background-color: rgb(30, 104, 150);
@@ -38,12 +45,30 @@
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for button */
 }
 
-.details button:hover{
+.details button:hover {
     background-color: teal;
 }
-.btnRemove{
+
+.btnRemove {
     background-color: rgb(179, 24, 24) !important;
 }
 
+/* Media Queries for Responsiveness */
+
+/* For tablets and larger devices */
+@media (min-width: 768px) {
+    .product {
+        width: 220px; /* Slightly wider for larger screens */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .product {
+        width: 100%; /* Full width on smaller screens */
+        height: auto; /* Allow height to adjust based on content */
+    }
+}

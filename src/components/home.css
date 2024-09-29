@@ -1,8 +1,24 @@
-.product-container{
+.product-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     text-align: center;
-    justify-content: center;
-    justify-content: space-evenly;
+    justify-content: center; /* Aligns items to center */
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and larger devices */
+@media (min-width: 768px) {
+    .product-container {
+        justify-content: space-evenly; /* Spacing for larger screens */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .product-container {
+        flex-direction: column; /* Stack products vertically */
+        align-items: center; /* Center items horizontally */
+    }
 }
