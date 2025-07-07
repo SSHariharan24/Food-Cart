@@ -22,3 +22,12 @@
         align-items: center; /* Center items horizontally */
     }
 }
+.status-text {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+
+.status-text.error {
+  color: red;
+}

@@ -1,74 +1,77 @@
-.product {
-    width: 200px; /* Base width for larger screens */
-    height: 250px; /* Fixed height */
-    border: 1px solid #ccc;
-    border-radius: 5px; /* Slightly rounded corners */
-    overflow: hidden; /* Prevents overflow from child elements */
-    transition: box-shadow 0.3s; /* Smooth transition for hover effect */
+.product-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin: 15px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease-in-out;
 }
 
-.product:hover {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover for depth effect */
+.product-card:hover {
+  transform: scale(1.03);
 }
 
-.product .image {
+.product-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.product-info h3 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.price {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.add {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn.add:hover {
+  background-color: #218838;
+}
+
+.btn.remove {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn.remove:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-card {
     width: 100%;
-    height: 150px;
-}
-
-.product .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire area */
-}
-
-.details {
-    padding: 5px;
-}
-
-.details h3 {
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-
-.details p {
-    font-size: 15px;
-    font-weight: 500;
-    color: #888;
-}
-
-.details button {
-    margin-top: 5px;
-    padding: 5px 10px;
-    background-color: rgb(30, 104, 150);
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s; /* Smooth transition for button */
-}
-
-.details button:hover {
-    background-color: teal;
-}
-
-.btnRemove {
-    background-color: rgb(179, 24, 24) !important;
-}
-
-/* Media Queries for Responsiveness */
-
-/* For tablets and larger devices */
-@media (min-width: 768px) {
-    .product {
-        width: 220px; /* Slightly wider for larger screens */
-    }
-}
-
-/* For mobile devices */
-@media (max-width: 480px) {
-    .product {
-        width: 100%; /* Full width on smaller screens */
-        height: auto; /* Allow height to adjust based on content */
-    }
+  }
 }

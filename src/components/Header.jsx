@@ -1,19 +1,24 @@
-import React from 'react'
-import {Link} from "react-router-dom";
-import "./Header.css";
-export const Header = ({cart}) => {
-  
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css';
+
+export const Header = ({ cart }) => {
   return (
-    <div className='navbar'>
-        <div className="logo">FOOD CART</div>
-        <ul>
-            <li>
-                <Link to={"/"} >HOME</Link>
-            </li>
-            <li>
-                <Link to={"/Cart"}> <span className='cart-count'>{cart.length}</span> VIEW CART🛒</Link>
-            </li>
+    <header className="navbar">
+      <div className="logo">🍔 FOOD CART</div>
+      <nav>
+        <ul className="nav-links">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li className="cart-link">
+            <Link to="/Cart">
+              View Cart 🛒
+              <span className="cart-count">{cart.length}</span>
+            </Link>
+          </li>
         </ul>
-    </div>
-  )
-}
+      </nav>
+    </header>
+  );
+};
